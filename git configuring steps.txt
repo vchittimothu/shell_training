@@ -1,0 +1,21 @@
+Windows side using vscode:
+
+cd C:\Shell\shell_training
+git status
+git add .
+git commit -m "Initial commit"
+git branch
+git push origin main
+git push --set-upstream origin main
+git remote add origin https://github.com/vchittimothu/shell_training.git
+git remote -v   # verify it's set correctly
+
+
+Linux VM side
+
+ git clone https://github.com/vchittimothu/shell_training.git
+ cd shell_training/
+ git pull origin main
+ ls
+ bash echo.sh
+ git --version
