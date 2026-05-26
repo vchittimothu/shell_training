@@ -7,4 +7,5 @@ else
 echo "lets start the nginx service"
 systemctl start nginx
 curl -sl http://localhost | grep -i nginx
+fi
 
