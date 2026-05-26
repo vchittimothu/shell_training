@@ -5,7 +5,7 @@ echo "Nginx service is running on the server and Lets validate using CURL...."
 curl -sl http://localhost | grep -i nginx
 else
 echo "lets start the nginx service"
-systemctl start nginx
+sudo systemctl start nginx
 curl -sl http://localhost | grep -i nginx
 fi
 
